@@ -1,0 +1,95 @@
+{
+  "note": "ELEVEX Apps TikTok queue. Posted in order by the n8n workflow 'ELEVEX Apps: auto-post'. Add the matching files under /apps (ID.mp4 and ID.jpg). Set \"ai\": false for clips with no avatar.",
+  "clips": [
+    {
+      "id": "V1",
+      "title": "These are some of the apps we're building",
+      "caption": "These are some of the apps we're building. Try them and let us know what you think. Visit us at elevexapps.elevex.digital #elevexapps #appdevelopment #newapps",
+      "video": "apps/V1.mp4",
+      "cover": "apps/V1.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V2",
+      "title": "Heading abroad? Travel informed.",
+      "caption": "Heading abroad? Travel Safety Watch brings weather warnings, local news and official advice together for your destination. Try it and tell us what you think. Visit us at elevexapps.elevex.digital #travel #travelsafety #travelinformed",
+      "video": "apps/V2.mp4",
+      "cover": "apps/V2.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V8",
+      "title": "Want to be a tester on Google Play?",
+      "caption": "Want to be a tester on Google Play? Send us your email and we'll tell you how to join. Visit us at elevexapps.elevex.digital #googleplay #betatesters #elevexapps",
+      "video": "apps/V8.mp4",
+      "cover": "apps/V8.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V3",
+      "title": "See where it's happening",
+      "caption": "Scenzy shows you what's going on around you, reported by people nearby. Early version, feedback welcome. 18+. Visit us at elevexapps.elevex.digital #scenzy #newapp #elevexapps",
+      "video": "apps/V3.mp4",
+      "cover": "apps/V3.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V4",
+      "title": "A social feed that's only yours",
+      "caption": "MyWall is a private wall for your moments, plans and wins. It all stays on your device. Try it and let us know what you think. Visit us at elevexapps.elevex.digital #mywall #privacy #elevexapps",
+      "video": "apps/V4.mp4",
+      "cover": "apps/V4.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V9",
+      "title": "Help us shape these apps",
+      "caption": "We're building these apps with your feedback. Want to test them early on Google Play? Send us your email. Visit us at elevexapps.elevex.digital #betatesters #googleplay #elevexapps",
+      "video": "apps/V9.mp4",
+      "cover": "apps/V9.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V5",
+      "title": "Track your shifts, pay and cash flow",
+      "caption": "Daywall tracks your hours, weekly pay and cash flow in one place, and your data stays on your phone. Try it and tell us what you think. Visit us at elevexapps.elevex.digital #daywall #shiftwork #elevexapps",
+      "video": "apps/V5.mp4",
+      "cover": "apps/V5.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V6",
+      "title": "Puzzle games for layovers",
+      "caption": "TravelPlay has puzzle and word games made for layovers, and they work offline. 18+. Give it a go and tell us what you think. Visit us at elevexapps.elevex.digital #travelplay #puzzle #elevexapps",
+      "video": "apps/V6.mp4",
+      "cover": "apps/V6.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V7",
+      "title": "Where do passion, skill, need and pay meet?",
+      "caption": "Four questions, one clear picture. Try My Ikigai Map and tell us what you think. Visit us at elevexapps.elevex.digital #ikigai #clarity #elevexapps",
+      "video": "apps/V7.mp4",
+      "cover": "apps/V7.jpg",
+      "ai": true,
+      "ready": false
+    },
+    {
+      "id": "V10",
+      "title": "The person behind the apps",
+      "caption": "I'm Noah, lead developer at Elevex. Try the apps and tell us what's working and what isn't. Visit us at elevexapps.elevex.digital #developer #elevexapps",
+      "video": "apps/V10.mp4",
+      "cover": "apps/V10.jpg",
+      "ai": true,
+      "ready": false
+    }
+  ]
+}
