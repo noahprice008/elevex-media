@@ -84,6 +84,6 @@ const clips = [
       sc("Tell us what's *working*", `https://${HUB}/`, "Try them, and tell us what's working and what isn't.", [{ wait: 0.5 }, { scroll: 1000, over: 3.4 }]) ]),
       intro: intro("Who's *behind* these apps?", "I'm Noah, lead developer at Elevex."), outro: outro("ELEVEX Apps", "Visit Elevex apps dot Elevex dot digital.") } },
 ];
-const FINAL = clips.map((c, i) => ({ id: c.id, title: c.title, caption: c.caption, ai: true, ready: false, spec: { format: "elevexapps", seed: 100 + i * 7, music: "upbeat", voice: "am_echo", speed: 1.04, url: HUB, ...c.spec } }));
+const FINAL = clips.map((c, i) => ({ id: c.id, title: c.title, caption: c.caption, ai: true, ready: true, spec: { format: "elevexapps", seed: 100 + i * 7, music: "upbeat", voice: "am_echo", speed: 1.04, url: HUB, ...c.spec } }));
 if (process.argv[2] === "--stdout") console.log(JSON.stringify(FINAL[Number(process.argv[3] || 0)].spec));
 else fs.writeFileSync(new URL("./queue.json", import.meta.url), JSON.stringify({ note: "ELEVEX Apps clips for TikTok @elevexapps. Each clip is rendered from its spec at post time by the tsw-video renderer; only clips with ready:true are posted, in this order. Regenerate with: node apps/build_specs.mjs", clips: FINAL }, null, 1));

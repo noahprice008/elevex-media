@@ -6,7 +6,7 @@
    "title": "These are some of the apps we're building",
    "caption": "At Elevex, we build apps. These are some of the ones we're working on right now. Try them, and tell us what you think. Visit us at elevexapps.elevex.digital #elevex #apps #appdev #buildinpublic",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 100,
@@ -66,7 +66,7 @@
    "title": "Heading abroad? Travel informed.",
    "caption": "Heading abroad? Travel Safety Watch brings weather warnings, local news and official advice together for your destination. Try it and tell us what you think. Independent, not a government service. elevexapps.elevex.digital #travel #traveltips #travelsafety #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 107,
@@ -130,7 +130,7 @@
    "title": "Want to be a tester on Google Play?",
    "caption": "Want to be a tester for Google Play? Send us your email and we'll tell you how to join. Details at elevexapps.elevex.digital #googleplay #betatester #apps #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 114,
@@ -200,7 +200,7 @@
    "title": "See where it's happening",
    "caption": "See where it's happening. Scenzy shows you what's going on around you, reported by people nearby. It's an early version, and we'd love your feedback. 18+. elevexapps.elevex.digital #scenzy #nearby #localevents #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 121,
@@ -262,7 +262,7 @@
    "title": "A social feed that's only yours",
    "caption": "A social feed that's only yours. MyWall is a private wall for your moments, plans and wins, and it all stays on your device. Have a look and let us know. elevexapps.elevex.digital #mywall #privacy #journaling #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 128,
@@ -276,7 +276,7 @@
     "scenes": [
      {
       "localStorage": {
-       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:40:32.897Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:40:32.900Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:40:32.900Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:40:32.900Z\"}]",
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:56:30.003Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:56:30.005Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:56:30.005Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:56:30.005Z\"}]",
        "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
        "myplace:welcome-dismissed": "true"
       },
@@ -296,7 +296,7 @@
      },
      {
       "localStorage": {
-       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:40:32.897Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:40:32.900Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:40:32.900Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:40:32.900Z\"}]",
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:56:30.003Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:56:30.005Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:56:30.005Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:56:30.005Z\"}]",
        "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
        "myplace:welcome-dismissed": "true"
       },
@@ -333,7 +333,7 @@
    "title": "Help us shape these apps",
    "caption": "We're building these apps with your feedback. Want to test them early on Google Play? Send us your email and we'll be in touch. elevexapps.elevex.digital #googleplay #beta #feedback #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 135,
@@ -401,7 +401,7 @@
    "title": "Track your shifts, pay and cash flow",
    "caption": "Working shifts? Daywall tracks your hours, your weekly pay and your cash flow in one place, and your data stays on your phone. Try it and tell us what you think. (Demo data) elevexapps.elevex.digital #shiftwork #budgeting #sidehustle #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 142,
@@ -481,7 +481,7 @@
    "title": "Puzzle games for layovers",
    "caption": "Stuck at the gate? TravelPlay has puzzle and word games made for layovers, and they work offline. Give it a go and tell us what you think. 18+. elevexapps.elevex.digital #travel #puzzle #wordgame #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 149,
@@ -557,7 +557,7 @@
    "title": "Where do passion, skill, need and pay meet?",
    "caption": "Four questions. One clear picture of where your passion, skills, the world's needs and pay meet. Try My Ikigai Map and tell us what you think. (Example map) elevexapps.elevex.digital #ikigai #purpose #career #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 156,
@@ -629,7 +629,7 @@
    "title": "The person behind the apps",
    "caption": "I'm Noah, lead developer at Elevex. I oversee every app on this page. Try them, and tell us what's working and what isn't. elevexapps.elevex.digital #developer #apps #elevex",
    "ai": true,
-   "ready": false,
+   "ready": true,
    "spec": {
     "format": "elevexapps",
     "seed": 163,
