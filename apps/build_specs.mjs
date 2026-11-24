@@ -70,7 +70,7 @@ const clips = [
       intro: intro("Working *shifts*?", "Working shifts?", "Daywall"), outro: outro("Daywall", "Try it, and tell us what you think. Visit Elevex apps dot Elevex dot digital.", { note: "Demo data shown" }) } },
   { id: "V6", title: "Puzzle games for layovers", caption: `Stuck at the gate? TravelPlay has puzzle and word games made for layovers, and they work offline. Give it a go and tell us what you think. 18+. ${HUB} #travel #puzzle #wordgame #elevex`,
     spec: { ...TP([
-      sc("Puzzle and *word games*", "https://travelplay.fun/play/daily-grid", "TravelPlay has puzzle and word games made for layovers.", [{ wait: 0.6 }, { click: "button[aria-label='Hint']" }, { wait: 0.6 }, { click: "button[aria-label='Hint']" }, { wait: 0.8 }]),
+      sc("Puzzle and *word games*", "https://travelplay.fun/play/daily-grid", "TravelPlay has puzzle and word games made for layovers.", [{ wait: 1 }, { scroll: 300, over: 3 }]),
       sc("Made to work *offline*", "https://travelplay.fun/", "They work offline. Give it a go.", [{ wait: 0.8 }, { scroll: 400, over: 2.4 }]) ]),
       intro: intro("Stuck at the *gate*?", "Stuck at the gate?", "TravelPlay"), outro: outro("TravelPlay", "Tell us what you think. Visit Elevex apps dot Elevex dot digital.", { note: "18+" }) } },
   { id: "V7", title: "Where do passion, skill, need and pay meet?", caption: `Four questions. One clear picture of where your passion, skills, the world's needs and pay meet. Try My Ikigai Map and tell us what you think. (Example map) ${HUB} #ikigai #purpose #career #elevex`,

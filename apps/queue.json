@@ -276,7 +276,7 @@
     "scenes": [
      {
       "localStorage": {
-       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:56:30.003Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:56:30.005Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:56:30.005Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:56:30.005Z\"}]",
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T12:20:16.980Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T05:20:16.983Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T12:20:16.983Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T12:20:16.983Z\"}]",
        "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
        "myplace:welcome-dismissed": "true"
       },
@@ -296,7 +296,7 @@
      },
      {
       "localStorage": {
-       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:56:30.003Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:56:30.005Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:56:30.005Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:56:30.005Z\"}]",
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T12:20:16.980Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T05:20:16.983Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T12:20:16.983Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T12:20:16.983Z\"}]",
        "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
        "myplace:welcome-dismissed": "true"
       },
@@ -503,19 +503,11 @@
       "say": "TravelPlay has puzzle and word games made for layovers.",
       "steps": [
        {
-        "wait": 0.6
+        "wait": 1
        },
        {
-        "click": "button[aria-label='Hint']"
-       },
-       {
-        "wait": 0.6
-       },
-       {
-        "click": "button[aria-label='Hint']"
-       },
-       {
-        "wait": 0.8
+        "scroll": 300,
+        "over": 3
        }
       ]
      },
