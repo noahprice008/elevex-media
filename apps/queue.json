@@ -1,95 +1,688 @@
 {
-  "note": "ELEVEX Apps TikTok queue. Posted in order by the n8n workflow 'ELEVEX Apps: auto-post'. Add the matching files under /apps (ID.mp4 and ID.jpg). Set \"ai\": false for clips with no avatar.",
-  "clips": [
-    {
-      "id": "V1",
-      "title": "These are some of the apps we're building",
-      "caption": "These are some of the apps we're building. Try them and let us know what you think. Visit us at elevexapps.elevex.digital #elevexapps #appdevelopment #newapps",
-      "video": "apps/V1.mp4",
-      "cover": "apps/V1.jpg",
-      "ai": true,
-      "ready": false
+ "note": "ELEVEX Apps clips for TikTok @elevexapps. Each clip is rendered from its spec at post time by the tsw-video renderer; only clips with ready:true are posted, in this order. Regenerate with: node apps/build_specs.mjs",
+ "clips": [
+  {
+   "id": "V1",
+   "title": "These are some of the apps we're building",
+   "caption": "At Elevex, we build apps. These are some of the ones we're working on right now. Try them, and tell us what you think. Visit us at elevexapps.elevex.digital #elevex #apps #appdev #buildinpublic",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 100,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#4C8DFF",
+    "bg": "#08122a",
+    "icon_file": "assets/apps/elevex-mark.png",
+    "scenes": [
+     {
+      "settle": 1.5,
+      "headline": "Some of the apps we're *building*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "These are some of the ones we're working on right now.",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "scroll": 500,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "settle": 1.5,
+      "headline": "Try them in your *browser*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "Try them, and tell us what you think.",
+      "steps": [
+       {
+        "wait": 0.5
+       },
+       {
+        "scroll": 900,
+        "over": 3.2
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "We build *apps*.",
+     "say": "At Elevex, we build apps."
     },
-    {
-      "id": "V2",
-      "title": "Heading abroad? Travel informed.",
-      "caption": "Heading abroad? Travel Safety Watch brings weather warnings, local news and official advice together for your destination. Try it and tell us what you think. Visit us at elevexapps.elevex.digital #travel #travelsafety #travelinformed",
-      "video": "apps/V2.mp4",
-      "cover": "apps/V2.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V8",
-      "title": "Want to be a tester on Google Play?",
-      "caption": "Want to be a tester on Google Play? Send us your email and we'll tell you how to join. Visit us at elevexapps.elevex.digital #googleplay #betatesters #elevexapps",
-      "video": "apps/V8.mp4",
-      "cover": "apps/V8.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V3",
-      "title": "See where it's happening",
-      "caption": "Scenzy shows you what's going on around you, reported by people nearby. Early version, feedback welcome. 18+. Visit us at elevexapps.elevex.digital #scenzy #newapp #elevexapps",
-      "video": "apps/V3.mp4",
-      "cover": "apps/V3.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V4",
-      "title": "A social feed that's only yours",
-      "caption": "MyWall is a private wall for your moments, plans and wins. It all stays on your device. Try it and let us know what you think. Visit us at elevexapps.elevex.digital #mywall #privacy #elevexapps",
-      "video": "apps/V4.mp4",
-      "cover": "apps/V4.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V9",
-      "title": "Help us shape these apps",
-      "caption": "We're building these apps with your feedback. Want to test them early on Google Play? Send us your email. Visit us at elevexapps.elevex.digital #betatesters #googleplay #elevexapps",
-      "video": "apps/V9.mp4",
-      "cover": "apps/V9.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V5",
-      "title": "Track your shifts, pay and cash flow",
-      "caption": "Daywall tracks your hours, weekly pay and cash flow in one place, and your data stays on your phone. Try it and tell us what you think. Visit us at elevexapps.elevex.digital #daywall #shiftwork #elevexapps",
-      "video": "apps/V5.mp4",
-      "cover": "apps/V5.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V6",
-      "title": "Puzzle games for layovers",
-      "caption": "TravelPlay has puzzle and word games made for layovers, and they work offline. 18+. Give it a go and tell us what you think. Visit us at elevexapps.elevex.digital #travelplay #puzzle #elevexapps",
-      "video": "apps/V6.mp4",
-      "cover": "apps/V6.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V7",
-      "title": "Where do passion, skill, need and pay meet?",
-      "caption": "Four questions, one clear picture. Try My Ikigai Map and tell us what you think. Visit us at elevexapps.elevex.digital #ikigai #clarity #elevexapps",
-      "video": "apps/V7.mp4",
-      "cover": "apps/V7.jpg",
-      "ai": true,
-      "ready": false
-    },
-    {
-      "id": "V10",
-      "title": "The person behind the apps",
-      "caption": "I'm Noah, lead developer at Elevex. Try the apps and tell us what's working and what isn't. Visit us at elevexapps.elevex.digital #developer #elevexapps",
-      "video": "apps/V10.mp4",
-      "cover": "apps/V10.jpg",
-      "ai": true,
-      "ready": false
+    "outro": {
+     "name": "ELEVEX Apps",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital."
     }
-  ]
+   }
+  },
+  {
+   "id": "V2",
+   "title": "Heading abroad? Travel informed.",
+   "caption": "Heading abroad? Travel Safety Watch brings weather warnings, local news and official advice together for your destination. Try it and tell us what you think. Independent, not a government service. elevexapps.elevex.digital #travel #traveltips #travelsafety #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 107,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#2EC4B6",
+    "bg": "#0a1a1f",
+    "icon_file": "assets/apps/travel-safety-watch.webp",
+    "scenes": [
+     {
+      "hide": "[aria-label='Cookie consent'], .alerts-mobile-banner",
+      "settle": 1.8,
+      "headline": "Warnings and *local news*",
+      "url": "https://travelsafetywatch.com/alerts",
+      "say": "Travel Safety Watch brings weather warnings and local news together for your destination.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 600,
+        "over": 3.5
+       }
+      ]
+     },
+     {
+      "hide": "[aria-label='Cookie consent'], .alerts-mobile-banner",
+      "settle": 1.8,
+      "headline": "Official *advice* too",
+      "url": "https://travelsafetywatch.com/news",
+      "say": "Along with official advice. Travel informed.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 700,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Heading *abroad*?",
+     "say": "Heading abroad?",
+     "app": "Travel Safety Watch"
+    },
+    "outro": {
+     "name": "Travel Safety Watch",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Try it, and tell us what you think. Visit Elevex apps dot Elevex dot digital.",
+     "note": "Independent, not a government service"
+    }
+   }
+  },
+  {
+   "id": "V8",
+   "title": "Want to be a tester on Google Play?",
+   "caption": "Want to be a tester for Google Play? Send us your email and we'll tell you how to join. Details at elevexapps.elevex.digital #googleplay #betatester #apps #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 114,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#4C8DFF",
+    "bg": "#08122a",
+    "icon_file": "assets/apps/elevex-mark.png",
+    "scenes": [
+     {
+      "settle": 1.5,
+      "headline": "Want to *test* our apps?",
+      "url": "https://elevexapps.elevex.digital/#tester",
+      "say": "Send us your email, and we'll tell you how to join.",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "type": "input[type=email]",
+        "text": "you@example.com",
+        "delay": 80
+       },
+       {
+        "wait": 0.6
+       }
+      ]
+     },
+     {
+      "settle": 1.5,
+      "headline": "Early access on *Google Play*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "Details at Elevex apps dot Elevex dot digital.",
+      "steps": [
+       {
+        "wait": 0.5
+       },
+       {
+        "scroll": 700,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Want to be a *tester*?",
+     "say": "Want to be a tester for Google Play?",
+     "app": null,
+     "kicker": "GOOGLE PLAY"
+    },
+    "outro": {
+     "name": "ELEVEX Apps",
+     "line": "Be an early tester",
+     "url": "elevexapps.elevex.digital",
+     "say": "Send us your email. We'll be in touch.",
+     "tester": {
+      "title": "Want to be a tester on Google Play?",
+      "text": "Send us your email at the link above"
+     }
+    }
+   }
+  },
+  {
+   "id": "V3",
+   "title": "See where it's happening",
+   "caption": "See where it's happening. Scenzy shows you what's going on around you, reported by people nearby. It's an early version, and we'd love your feedback. 18+. elevexapps.elevex.digital #scenzy #nearby #localevents #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 121,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#C6FF3D",
+    "bg": "#0b1210",
+    "icon_file": "assets/apps/scenzy.webp",
+    "scenes": [
+     {
+      "settle": 2.5,
+      "headline": "Scenes *around you*",
+      "url": "https://getscenzy.com/",
+      "say": "Scenzy shows you what's going on around you, reported by people nearby.",
+      "steps": [
+       {
+        "wait": 1.2
+       },
+       {
+        "scroll": 400,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "settle": 2.5,
+      "headline": "An early version. *Feedback welcome.*",
+      "url": "https://getscenzy.com/near",
+      "say": "It's an early version, and we'd love your feedback.",
+      "steps": [
+       {
+        "wait": 1.2
+       },
+       {
+        "scroll": 500,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "See where it's *happening*",
+     "say": "See where it's happening.",
+     "app": "Scenzy"
+    },
+    "outro": {
+     "name": "Scenzy",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Try it, and tell us what you think. Visit Elevex apps dot Elevex dot digital.",
+     "note": "18+ · Early version"
+    }
+   }
+  },
+  {
+   "id": "V4",
+   "title": "A social feed that's only yours",
+   "caption": "A social feed that's only yours. MyWall is a private wall for your moments, plans and wins, and it all stays on your device. Have a look and let us know. elevexapps.elevex.digital #mywall #privacy #journaling #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 128,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#A78BFA",
+    "bg": "#120d24",
+    "icon_file": "assets/apps/mywall.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:33:59.406Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:33:59.407Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:33:59.407Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:33:59.407Z\"}]",
+       "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
+       "myplace:welcome-dismissed": "true"
+      },
+      "settle": 1.5,
+      "headline": "Your moments, plans and *wins*",
+      "url": "https://mywall.elevex.digital/",
+      "say": "MyWall is a private wall for your moments, plans and wins.",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "scroll": 450,
+        "over": 3.5
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T11:33:59.406Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T04:33:59.407Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T11:33:59.407Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T11:33:59.407Z\"}]",
+       "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
+       "myplace:welcome-dismissed": "true"
+      },
+      "settle": 1.5,
+      "headline": "It stays on *your device*",
+      "url": "https://mywall.elevex.digital/",
+      "say": "It all stays on your device. Have a look and let us know.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 700,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "A feed that's *only yours*",
+     "say": "A social feed that's only yours.",
+     "app": "MyWall"
+    },
+    "outro": {
+     "name": "MyWall",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Try it, and tell us what you think. Visit Elevex apps dot Elevex dot digital."
+    }
+   }
+  },
+  {
+   "id": "V9",
+   "title": "Help us shape these apps",
+   "caption": "We're building these apps with your feedback. Want to test them early on Google Play? Send us your email and we'll be in touch. elevexapps.elevex.digital #googleplay #beta #feedback #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 135,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#4C8DFF",
+    "bg": "#08122a",
+    "icon_file": "assets/apps/elevex-mark.png",
+    "scenes": [
+     {
+      "settle": 1.5,
+      "headline": "Test early on *Google Play*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "Want to test them early on Google Play?",
+      "steps": [
+       {
+        "wait": 0.6
+       },
+       {
+        "scroll": 600,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "settle": 1.5,
+      "headline": "Send us your *email*",
+      "url": "https://elevexapps.elevex.digital/#tester",
+      "say": "Send us your email and we'll be in touch.",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "type": "input[type=email]",
+        "text": "you@example.com",
+        "delay": 80
+       },
+       {
+        "wait": 0.6
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Help us *shape* these apps",
+     "say": "We're building these apps with your feedback."
+    },
+    "outro": {
+     "name": "ELEVEX Apps",
+     "line": "Be an early tester",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital.",
+     "tester": {
+      "title": "Want to be a tester on Google Play?",
+      "text": "Send us your email at the link above"
+     }
+    }
+   }
+  },
+  {
+   "id": "V5",
+   "title": "Track your shifts, pay and cash flow",
+   "caption": "Working shifts? Daywall tracks your hours, your weekly pay and your cash flow in one place, and your data stays on your phone. Try it and tell us what you think. (Demo data) elevexapps.elevex.digital #shiftwork #budgeting #sidehustle #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 142,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#22B8CF",
+    "bg": "#0a1c24",
+    "icon_file": "assets/apps/daywall.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "myplace:welcome-dismissed": "true",
+       "myplace:currency": "\"USD\"",
+       "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh3\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-21\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-16\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh10\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-11\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh17\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-06\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"}]"
+      },
+      "settle": 1.5,
+      "headline": "Hours and *weekly pay*",
+      "url": "https://daywall.elevex.digital/work",
+      "say": "Daywall tracks your hours and your weekly pay.",
+      "steps": [
+       {
+        "eval": "document.querySelectorAll('button').forEach(b => /^Dismiss$/.test(b.innerText.trim()) && b.click())"
+       },
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 500,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "myplace:welcome-dismissed": "true",
+       "myplace:currency": "\"USD\"",
+       "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh3\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-21\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-16\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh10\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-11\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh17\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-06\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"}]"
+      },
+      "settle": 1.5,
+      "headline": "Your *cash flow*, one place",
+      "url": "https://daywall.elevex.digital/cashflow",
+      "say": "And your cash flow, all in one place. Your data stays on your phone.",
+      "steps": [
+       {
+        "eval": "document.querySelectorAll('button').forEach(b => /^Dismiss$/.test(b.innerText.trim()) && b.click())"
+       },
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 700,
+        "over": 3.5
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Working *shifts*?",
+     "say": "Working shifts?",
+     "app": "Daywall"
+    },
+    "outro": {
+     "name": "Daywall",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Try it, and tell us what you think. Visit Elevex apps dot Elevex dot digital.",
+     "note": "Demo data shown"
+    }
+   }
+  },
+  {
+   "id": "V6",
+   "title": "Puzzle games for layovers",
+   "caption": "Stuck at the gate? TravelPlay has puzzle and word games made for layovers, and they work offline. Give it a go and tell us what you think. 18+. elevexapps.elevex.digital #travel #puzzle #wordgame #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 149,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#F5A623",
+    "bg": "#0b1424",
+    "icon_file": "assets/apps/travelplay.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "app.v1.introSeen": "true"
+      },
+      "settle": 1.5,
+      "headline": "Puzzle and *word games*",
+      "url": "https://travelplay.fun/play/daily-grid",
+      "say": "TravelPlay has puzzle and word games made for layovers.",
+      "steps": [
+       {
+        "wait": 0.6
+       },
+       {
+        "click": "button[aria-label='Hint']"
+       },
+       {
+        "wait": 0.6
+       },
+       {
+        "click": "button[aria-label='Hint']"
+       },
+       {
+        "wait": 0.8
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "app.v1.introSeen": "true"
+      },
+      "settle": 1.5,
+      "headline": "Made to work *offline*",
+      "url": "https://travelplay.fun/",
+      "say": "They work offline. Give it a go.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 400,
+        "over": 2.4
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Stuck at the *gate*?",
+     "say": "Stuck at the gate?",
+     "app": "TravelPlay"
+    },
+    "outro": {
+     "name": "TravelPlay",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Tell us what you think. Visit Elevex apps dot Elevex dot digital.",
+     "note": "18+"
+    }
+   }
+  },
+  {
+   "id": "V7",
+   "title": "Where do passion, skill, need and pay meet?",
+   "caption": "Four questions. One clear picture of where your passion, skills, the world's needs and pay meet. Try My Ikigai Map and tell us what you think. (Example map) elevexapps.elevex.digital #ikigai #purpose #career #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 156,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#F25C54",
+    "bg": "#1a0f14",
+    "icon_file": "assets/apps/ikigai.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "ikigai-guide-seen": "1",
+       "ikigai-example": "1",
+       "ikigai-map-v1": "{\"dimensions\":{\"love\":{\"items\":[{\"id\":\"love-0\",\"label\":\"Drawing systems on paper\",\"score\":5},{\"id\":\"love-1\",\"label\":\"Teaching one person at a time\",\"score\":4}],\"avg_score\":4.5},\"good_at\":{\"items\":[{\"id\":\"good_at-0\",\"label\":\"Turning mess into structure\",\"score\":4}],\"avg_score\":4},\"needs\":{\"items\":[{\"id\":\"needs-0\",\"label\":\"Tools that slow people down\",\"score\":3}],\"avg_score\":3},\"paid_for\":{\"items\":[{\"id\":\"paid_for-0\",\"label\":\"Consulting on product clarity\",\"score\":4}],\"avg_score\":4}},\"theme\":\"light\",\"history\":[],\"premium\":false,\"prefs\":{\"palette\":\"editorial\",\"audioEnabled\":false,\"paperTexture\":true}}"
+      },
+      "settle": 1.5,
+      "headline": "Passion, skills, needs, *pay*",
+      "url": "https://ikigai.elevex.digital/",
+      "say": "Where your passion, skills, the world's needs and pay meet.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 450,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "ikigai-guide-seen": "1",
+       "ikigai-example": "1",
+       "ikigai-map-v1": "{\"dimensions\":{\"love\":{\"items\":[{\"id\":\"love-0\",\"label\":\"Drawing systems on paper\",\"score\":5},{\"id\":\"love-1\",\"label\":\"Teaching one person at a time\",\"score\":4}],\"avg_score\":4.5},\"good_at\":{\"items\":[{\"id\":\"good_at-0\",\"label\":\"Turning mess into structure\",\"score\":4}],\"avg_score\":4},\"needs\":{\"items\":[{\"id\":\"needs-0\",\"label\":\"Tools that slow people down\",\"score\":3}],\"avg_score\":3},\"paid_for\":{\"items\":[{\"id\":\"paid_for-0\",\"label\":\"Consulting on product clarity\",\"score\":4}],\"avg_score\":4}},\"theme\":\"light\",\"history\":[],\"premium\":false,\"prefs\":{\"palette\":\"editorial\",\"audioEnabled\":false,\"paperTexture\":true}}"
+      },
+      "settle": 1.5,
+      "headline": "Your *ikigai* map",
+      "url": "https://ikigai.elevex.digital/map",
+      "say": "Try My Ikigai Map and tell us what you think.",
+      "steps": [
+       {
+        "wait": 1.2
+       },
+       {
+        "scroll": 500,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Four questions. *One* picture.",
+     "say": "Four questions. One clear picture.",
+     "app": "My Ikigai Map"
+    },
+    "outro": {
+     "name": "My Ikigai Map",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital.",
+     "note": "Example map shown"
+    }
+   }
+  },
+  {
+   "id": "V10",
+   "title": "The person behind the apps",
+   "caption": "I'm Noah, lead developer at Elevex. I oversee every app on this page. Try them, and tell us what's working and what isn't. elevexapps.elevex.digital #developer #apps #elevex",
+   "ai": true,
+   "ready": false,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 163,
+    "music": "upbeat",
+    "voice": "bm_daniel",
+    "speed": 1.02,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#4C8DFF",
+    "bg": "#08122a",
+    "icon_file": "assets/apps/elevex-mark.png",
+    "scenes": [
+     {
+      "settle": 1.5,
+      "headline": "Every app, *overseen*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "I oversee every app on this page.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 600,
+        "over": 3.2
+       }
+      ]
+     },
+     {
+      "settle": 1.5,
+      "headline": "Tell us what's *working*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "Try them, and tell us what's working and what isn't.",
+      "steps": [
+       {
+        "wait": 0.5
+       },
+       {
+        "scroll": 1000,
+        "over": 3.4
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Who's *behind* these apps?",
+     "say": "I'm Noah, lead developer at Elevex."
+    },
+    "outro": {
+     "name": "ELEVEX Apps",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital."
+    }
+   }
+  }
+ ]
 }
