@@ -276,7 +276,7 @@
     "scenes": [
      {
       "localStorage": {
-       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T12:20:16.980Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T05:20:16.983Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T12:20:16.983Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T12:20:16.983Z\"}]",
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-25T15:40:54.559Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-25T08:40:54.562Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-24T15:40:54.562Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-23T15:40:54.562Z\"}]",
        "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
        "myplace:welcome-dismissed": "true"
       },
@@ -296,7 +296,7 @@
      },
      {
       "localStorage": {
-       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-24T12:20:16.980Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-24T05:20:16.983Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-23T12:20:16.983Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-22T12:20:16.983Z\"}]",
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-25T15:40:54.559Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-25T08:40:54.562Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-24T15:40:54.562Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-23T15:40:54.562Z\"}]",
        "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
        "myplace:welcome-dismissed": "true"
       },
@@ -418,7 +418,7 @@
        "myplace:welcome-dismissed": "true",
        "myplace:currency": "\"USD\"",
        "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
-       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh3\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-21\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-16\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh10\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-11\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh17\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-06\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"}]"
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-25\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh2\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-20\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-10\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh16\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-05\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh23\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"}]"
       },
       "settle": 1.5,
       "headline": "Hours and *weekly pay*",
@@ -442,7 +442,7 @@
        "myplace:welcome-dismissed": "true",
        "myplace:currency": "\"USD\"",
        "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
-       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh3\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-21\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-16\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh10\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-11\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh17\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-06\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"}]"
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-25\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh2\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-20\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-10\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh16\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-05\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh23\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"}]"
       },
       "settle": 1.5,
       "headline": "Your *cash flow*, one place",
@@ -673,6 +673,765 @@
      "line": "Try it. Tell us what you think.",
      "url": "elevexapps.elevex.digital",
      "say": "Visit Elevex apps dot Elevex dot digital."
+    }
+   }
+  },
+  {
+   "id": "V11",
+   "title": "Is it safe where you're going?",
+   "caption": "Is it safe where you're going? Travel Safety Watch gathers weather warnings, local news and official advice in one place. Independent, not a government service. Try it and tell us what you'd add. elevexapps.elevex.digital #travel #travelsafety #traveltips #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 170,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#2EC4B6",
+    "bg": "#0a1a1f",
+    "icon_file": "assets/apps/travel-safety-watch.webp",
+    "scenes": [
+     {
+      "hide": "[aria-label='Cookie consent'], .alerts-mobile-banner",
+      "settle": 1.8,
+      "headline": "Check your *destination*",
+      "url": "https://travelsafetywatch.com/alerts",
+      "say": "Travel Safety Watch gathers warnings for places around the world.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 350,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "hide": "[aria-label='Cookie consent'], .alerts-mobile-banner",
+      "settle": 1.8,
+      "headline": "Local *news*, in plain words",
+      "url": "https://travelsafetywatch.com/news",
+      "say": "Check before you fly, and tell us what you would add.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 450,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Is it *safe* there?",
+     "say": "Is it safe where you're going?",
+     "app": "Travel Safety Watch"
+    },
+    "outro": {
+     "name": "Travel Safety Watch",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Try it, and tell us what you think. Visit Elevex apps dot Elevex dot digital.",
+     "note": "Independent, not a government service"
+    }
+   }
+  },
+  {
+   "id": "V12",
+   "title": "Know what you earned this week?",
+   "caption": "Know what you earned this week? Daywall adds up your hours and your weekly pay, and your data stays on your phone. Try it and tell us what you think. (Demo data) elevexapps.elevex.digital #shiftwork #sidehustle #budget #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 177,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#22B8CF",
+    "bg": "#0a1c24",
+    "icon_file": "assets/apps/daywall.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "myplace:welcome-dismissed": "true",
+       "myplace:currency": "\"USD\"",
+       "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-25\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh2\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-20\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-10\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh16\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-05\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh23\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"}]"
+      },
+      "settle": 1.5,
+      "headline": "What you *earned*",
+      "url": "https://daywall.elevex.digital/cashflow",
+      "say": "Daywall adds up your hours and your weekly pay.",
+      "steps": [
+       {
+        "eval": "document.querySelectorAll('button').forEach(b => /^Dismiss$/.test(b.innerText.trim()) && b.click())"
+       },
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 450,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "myplace:welcome-dismissed": "true",
+       "myplace:currency": "\"USD\"",
+       "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-25\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh2\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-20\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-10\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh16\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-05\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh23\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"}]"
+      },
+      "settle": 1.5,
+      "headline": "Every *shift*, in one place",
+      "url": "https://daywall.elevex.digital/work",
+      "say": "Your data stays on your phone. Try it, and tell us what you think.",
+      "steps": [
+       {
+        "eval": "document.querySelectorAll('button').forEach(b => /^Dismiss$/.test(b.innerText.trim()) && b.click())"
+       },
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 600,
+        "over": 3.2
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Know what you *earned*?",
+     "say": "Know what you earned this week?",
+     "app": "Daywall"
+    },
+    "outro": {
+     "name": "Daywall",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital.",
+     "note": "Demo data shown"
+    }
+   }
+  },
+  {
+   "id": "V13",
+   "title": "What's going on near you tonight?",
+   "caption": "What's going on near you tonight? Scenzy shows scenes reported by people nearby. It's an early version, and we'd love your feedback. 18+. elevexapps.elevex.digital #scenzy #nearby #nightlife #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 184,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#C6FF3D",
+    "bg": "#0b1210",
+    "icon_file": "assets/apps/scenzy.webp",
+    "scenes": [
+     {
+      "settle": 2.5,
+      "headline": "Reported by people *nearby*",
+      "url": "https://getscenzy.com/near",
+      "say": "Scenzy shows scenes reported by people nearby.",
+      "steps": [
+       {
+        "wait": 1.2
+       },
+       {
+        "scroll": 450,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "settle": 2.5,
+      "headline": "Still *early*. Tell us more.",
+      "url": "https://getscenzy.com/",
+      "say": "It's an early version, so tell us what you would change.",
+      "steps": [
+       {
+        "wait": 1.2
+       },
+       {
+        "scroll": 350,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "What's *on* tonight?",
+     "say": "What's going on near you tonight?",
+     "app": "Scenzy"
+    },
+    "outro": {
+     "name": "Scenzy",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital.",
+     "note": "18+ · Early version"
+    }
+   }
+  },
+  {
+   "id": "V14",
+   "title": "Somewhere private to think out loud?",
+   "caption": "Somewhere private to think out loud? MyWall keeps your notes, lists and diary entries on your own device. Have a look and tell us what you think. elevexapps.elevex.digital #mywall #journaling #privacy #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 191,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#A78BFA",
+    "bg": "#120d24",
+    "icon_file": "assets/apps/mywall.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-25T15:40:54.559Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-25T08:40:54.562Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-24T15:40:54.562Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-23T15:40:54.562Z\"}]",
+       "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
+       "myplace:welcome-dismissed": "true"
+      },
+      "settle": 1.5,
+      "headline": "Notes, lists and *diary*",
+      "url": "https://mywall.elevex.digital/",
+      "say": "MyWall keeps your notes, lists and diary entries together.",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "scroll": 550,
+        "over": 3.4
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "myplace:posts": "[{\"id\":\"p1\",\"kind\":\"thought\",\"text\":\"Finished the first draft today. Small win, big relief.\",\"images\":[],\"items\":[],\"likes\":4,\"comments\":[],\"createdAt\":\"2026-11-25T15:40:54.559Z\",\"mood\":\"😊\"},{\"id\":\"p2\",\"kind\":\"list\",\"text\":\"This weekend\",\"images\":[],\"items\":[{\"id\":\"i1\",\"text\":\"Long walk by the sea\",\"done\":true},{\"id\":\"i2\",\"text\":\"Call Grandma\",\"done\":true},{\"id\":\"i3\",\"text\":\"Plan next week\",\"done\":false}],\"likes\":2,\"comments\":[],\"createdAt\":\"2026-11-25T08:40:54.562Z\"},{\"id\":\"p3\",\"kind\":\"diary\",\"text\":\"Quiet morning, good coffee, and an hour to think. Writing it down so I remember how this felt.\",\"images\":[],\"items\":[],\"likes\":6,\"comments\":[],\"createdAt\":\"2026-11-24T15:40:54.562Z\",\"mood\":\"☕\"},{\"id\":\"p4\",\"kind\":\"note\",\"text\":\"Ideas for the garden: tomatoes, basil, one lemon tree.\",\"images\":[],\"items\":[],\"likes\":1,\"comments\":[],\"createdAt\":\"2026-11-23T15:40:54.562Z\"}]",
+       "myplace:profile": "{\"name\":\"\",\"username\":\"you\",\"bio\":\"My private wall\",\"symbol\":\"🌿\",\"showNameWhenSharing\":false}",
+       "myplace:welcome-dismissed": "true"
+      },
+      "settle": 1.5,
+      "headline": "Just for *you*",
+      "url": "https://mywall.elevex.digital/",
+      "say": "Everything stays on your own device. Tell us what you think.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 800,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Think *out loud*, privately",
+     "say": "Somewhere private to think out loud?",
+     "app": "MyWall"
+    },
+    "outro": {
+     "name": "MyWall",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital."
+    }
+   }
+  },
+  {
+   "id": "V15",
+   "title": "Five minutes before boarding?",
+   "caption": "Five minutes before boarding? TravelPlay has quick puzzle and word games that work offline. Give it a go and tell us what you think. 18+. elevexapps.elevex.digital #travel #wordgame #puzzle #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 198,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#F5A623",
+    "bg": "#0b1424",
+    "icon_file": "assets/apps/travelplay.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "app.v1.introSeen": "true"
+      },
+      "settle": 1.5,
+      "headline": "A *daily* puzzle",
+      "url": "https://travelplay.fun/play/daily-grid",
+      "say": "TravelPlay has quick puzzle and word games.",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "scroll": 250,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "app.v1.introSeen": "true"
+      },
+      "settle": 1.5,
+      "headline": "Works *offline*",
+      "url": "https://travelplay.fun/",
+      "say": "Made for the gate, the train and the long flight.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 450,
+        "over": 2.6
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Five minutes *to boarding*?",
+     "say": "Five minutes before boarding?",
+     "app": "TravelPlay"
+    },
+    "outro": {
+     "name": "TravelPlay",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Tell us what you think. Visit Elevex apps dot Elevex dot digital.",
+     "note": "18+"
+    }
+   }
+  },
+  {
+   "id": "V16",
+   "title": "Not sure what to do next in your career?",
+   "caption": "Not sure what to do next in your career? My Ikigai Map helps you see where what you love, what you're good at, what's needed and what pays all meet. Try it and tell us what you think. (Example map) elevexapps.elevex.digital #ikigai #careerchange #clarity #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 205,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#F25C54",
+    "bg": "#1a0f14",
+    "icon_file": "assets/apps/ikigai.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "ikigai-guide-seen": "1",
+       "ikigai-example": "1",
+       "ikigai-map-v1": "{\"dimensions\":{\"love\":{\"items\":[{\"id\":\"love-0\",\"label\":\"Drawing systems on paper\",\"score\":5},{\"id\":\"love-1\",\"label\":\"Teaching one person at a time\",\"score\":4}],\"avg_score\":4.5},\"good_at\":{\"items\":[{\"id\":\"good_at-0\",\"label\":\"Turning mess into structure\",\"score\":4}],\"avg_score\":4},\"needs\":{\"items\":[{\"id\":\"needs-0\",\"label\":\"Tools that slow people down\",\"score\":3}],\"avg_score\":3},\"paid_for\":{\"items\":[{\"id\":\"paid_for-0\",\"label\":\"Consulting on product clarity\",\"score\":4}],\"avg_score\":4}},\"theme\":\"light\",\"history\":[],\"premium\":false,\"prefs\":{\"palette\":\"editorial\",\"audioEnabled\":false,\"paperTexture\":true}}"
+      },
+      "settle": 1.5,
+      "headline": "See the *whole* picture",
+      "url": "https://ikigai.elevex.digital/map",
+      "say": "My Ikigai Map shows where what you love and what pays all meet.",
+      "steps": [
+       {
+        "wait": 1.2
+       },
+       {
+        "scroll": 450,
+        "over": 3
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "ikigai-guide-seen": "1",
+       "ikigai-example": "1",
+       "ikigai-map-v1": "{\"dimensions\":{\"love\":{\"items\":[{\"id\":\"love-0\",\"label\":\"Drawing systems on paper\",\"score\":5},{\"id\":\"love-1\",\"label\":\"Teaching one person at a time\",\"score\":4}],\"avg_score\":4.5},\"good_at\":{\"items\":[{\"id\":\"good_at-0\",\"label\":\"Turning mess into structure\",\"score\":4}],\"avg_score\":4},\"needs\":{\"items\":[{\"id\":\"needs-0\",\"label\":\"Tools that slow people down\",\"score\":3}],\"avg_score\":3},\"paid_for\":{\"items\":[{\"id\":\"paid_for-0\",\"label\":\"Consulting on product clarity\",\"score\":4}],\"avg_score\":4}},\"theme\":\"light\",\"history\":[],\"premium\":false,\"prefs\":{\"palette\":\"editorial\",\"audioEnabled\":false,\"paperTexture\":true}}"
+      },
+      "settle": 1.5,
+      "headline": "Start with what you *love*",
+      "url": "https://ikigai.elevex.digital/",
+      "say": "Try it, and tell us what you think.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 400,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "What's *next* for you?",
+     "say": "Not sure what to do next in your career?",
+     "app": "My Ikigai Map"
+    },
+    "outro": {
+     "name": "My Ikigai Map",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital.",
+     "note": "Example map shown"
+    }
+   }
+  },
+  {
+   "id": "V17",
+   "title": "Five apps, one page",
+   "caption": "Travel, shifts, privacy, puzzles and purpose. These are the apps we're building at Elevex, all on one page. Try them and tell us what you think. elevexapps.elevex.digital #apps #appdev #buildinpublic #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 212,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#4C8DFF",
+    "bg": "#08122a",
+    "icon_file": "assets/apps/elevex-mark.png",
+    "scenes": [
+     {
+      "settle": 1.5,
+      "headline": "Five apps, *one page*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "Travel, shifts, privacy, puzzles and purpose.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 450,
+        "over": 3.2
+       }
+      ]
+     },
+     {
+      "settle": 1.5,
+      "headline": "Pick one and *try it*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "Pick one, try it, and tell us what you think.",
+      "steps": [
+       {
+        "wait": 0.5
+       },
+       {
+        "scroll": 850,
+        "over": 3.4
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Which one *first*?",
+     "say": "These are the apps we're building at Elevex."
+    },
+    "outro": {
+     "name": "ELEVEX Apps",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital."
+    }
+   }
+  },
+  {
+   "id": "V18",
+   "title": "Help test our next app",
+   "caption": "Want to help test our apps on Google Play? Send us your email and we'll tell you how to join. Details at elevexapps.elevex.digital #googleplay #betatester #apps #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 219,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#4C8DFF",
+    "bg": "#08122a",
+    "icon_file": "assets/apps/elevex-mark.png",
+    "scenes": [
+     {
+      "settle": 1.5,
+      "headline": "Help us *test*",
+      "url": "https://elevexapps.elevex.digital/#tester",
+      "say": "Want to help test our apps on Google Play?",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "type": "input[type=email]",
+        "text": "you@example.com",
+        "delay": 80
+       },
+       {
+        "wait": 0.6
+       }
+      ]
+     },
+     {
+      "settle": 1.5,
+      "headline": "We'll tell you *how to join*",
+      "url": "https://elevexapps.elevex.digital/",
+      "say": "Send us your email, and we'll tell you how to join.",
+      "steps": [
+       {
+        "wait": 0.5
+       },
+       {
+        "scroll": 650,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Want an *early look*?",
+     "say": "Want an early look at our apps?",
+     "app": null,
+     "kicker": "GOOGLE PLAY"
+    },
+    "outro": {
+     "name": "ELEVEX Apps",
+     "line": "Be an early tester",
+     "url": "elevexapps.elevex.digital",
+     "say": "Send us your email. We'll be in touch.",
+     "tester": {
+      "title": "Want to be a tester on Google Play?",
+      "text": "Send us your email at the link above"
+     }
+    }
+   }
+  },
+  {
+   "id": "V19",
+   "title": "Booked a trip? Check this first.",
+   "caption": "Booked a trip? Check this first. Travel Safety Watch brings official advice, weather warnings and local news together for where you're headed. Independent, not a government service. elevexapps.elevex.digital #travel #traveltips #travelsafety #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 226,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#2EC4B6",
+    "bg": "#0a1a1f",
+    "icon_file": "assets/apps/travel-safety-watch.webp",
+    "scenes": [
+     {
+      "hide": "[aria-label='Cookie consent'], .alerts-mobile-banner",
+      "settle": 1.8,
+      "headline": "Official *advice*",
+      "url": "https://travelsafetywatch.com/news",
+      "say": "Travel Safety Watch brings official advice and local news together.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 550,
+        "over": 3.2
+       }
+      ]
+     },
+     {
+      "hide": "[aria-label='Cookie consent'], .alerts-mobile-banner",
+      "settle": 1.8,
+      "headline": "Weather *warnings* too",
+      "url": "https://travelsafetywatch.com/alerts",
+      "say": "Along with weather warnings for where you're headed.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 500,
+        "over": 3.2
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Booked a *trip*?",
+     "say": "Booked a trip? Check this first.",
+     "app": "Travel Safety Watch"
+    },
+    "outro": {
+     "name": "Travel Safety Watch",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital.",
+     "note": "Independent, not a government service"
+    }
+   }
+  },
+  {
+   "id": "V20",
+   "title": "Your shifts, on your phone",
+   "caption": "Your shifts, on your phone. Daywall tracks hours, pay and cash flow in one place. Try it and tell us what you think. (Demo data) elevexapps.elevex.digital #shiftwork #worklife #budgeting #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 233,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#22B8CF",
+    "bg": "#0a1c24",
+    "icon_file": "assets/apps/daywall.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "myplace:welcome-dismissed": "true",
+       "myplace:currency": "\"USD\"",
+       "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-25\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh2\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-20\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-10\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh16\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-05\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh23\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"}]"
+      },
+      "settle": 1.5,
+      "headline": "Log your *hours*",
+      "url": "https://daywall.elevex.digital/work",
+      "say": "Daywall tracks your hours as you work.",
+      "steps": [
+       {
+        "eval": "document.querySelectorAll('button').forEach(b => /^Dismiss$/.test(b.innerText.trim()) && b.click())"
+       },
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 650,
+        "over": 3.2
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "myplace:welcome-dismissed": "true",
+       "myplace:currency": "\"USD\"",
+       "myplace:workplaces": "[{\"id\":\"wp1demo\",\"name\":\"Harbour Cafe\",\"type\":\"hourly\",\"rate\":18,\"treatments\":[],\"removable\":true,\"billable\":false,\"color\":\"slot-1\"}]",
+       "myplace:shifts": "[{\"id\":\"sh0\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-25\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh1\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-24\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh2\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-23\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh5\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-20\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh6\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-19\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh7\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-18\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh8\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-17\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh11\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-14\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh12\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-13\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh13\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-12\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh15\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-10\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh16\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-09\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh18\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-07\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"},{\"id\":\"sh20\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-05\",\"hours\":4,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":72,\"note\":\"\"},{\"id\":\"sh21\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-04\",\"hours\":6,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":108,\"note\":\"\"},{\"id\":\"sh22\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-03\",\"hours\":8,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":144,\"note\":\"\"},{\"id\":\"sh23\",\"workplaceId\":\"wp1demo\",\"date\":\"2026-11-02\",\"hours\":5,\"days\":0,\"counts\":{},\"extraMinutes\":0,\"total\":90,\"note\":\"\"}]"
+      },
+      "settle": 1.5,
+      "headline": "See your *cash flow*",
+      "url": "https://daywall.elevex.digital/cashflow",
+      "say": "Then shows where your money goes. Tell us what you think.",
+      "steps": [
+       {
+        "eval": "document.querySelectorAll('button').forEach(b => /^Dismiss$/.test(b.innerText.trim()) && b.click())"
+       },
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 500,
+        "over": 3
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "Your shifts, on *your phone*",
+     "say": "Your shifts, on your phone.",
+     "app": "Daywall"
+    },
+    "outro": {
+     "name": "Daywall",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Visit Elevex apps dot Elevex dot digital.",
+     "note": "Demo data shown"
+    }
+   }
+  },
+  {
+   "id": "V21",
+   "title": "Word games that work offline",
+   "caption": "Word games that work offline. TravelPlay is made for layovers, long flights and waiting rooms. Give it a go and tell us what you think. 18+. elevexapps.elevex.digital #wordgame #travel #offline #elevex",
+   "ai": true,
+   "ready": true,
+   "spec": {
+    "format": "elevexapps",
+    "seed": 240,
+    "music": "upbeat",
+    "voice": "am_echo",
+    "speed": 1.04,
+    "url": "elevexapps.elevex.digital",
+    "accent": "#F5A623",
+    "bg": "#0b1424",
+    "icon_file": "assets/apps/travelplay.webp",
+    "scenes": [
+     {
+      "localStorage": {
+       "app.v1.introSeen": "true"
+      },
+      "settle": 1.5,
+      "headline": "Made for *layovers*",
+      "url": "https://travelplay.fun/",
+      "say": "TravelPlay is made for layovers, long flights and waiting rooms.",
+      "steps": [
+       {
+        "wait": 0.8
+       },
+       {
+        "scroll": 350,
+        "over": 2.8
+       }
+      ]
+     },
+     {
+      "localStorage": {
+       "app.v1.introSeen": "true"
+      },
+      "settle": 1.5,
+      "headline": "Play *offline*",
+      "url": "https://travelplay.fun/play/daily-grid",
+      "say": "No signal needed. Give it a go.",
+      "steps": [
+       {
+        "wait": 1
+       },
+       {
+        "scroll": 300,
+        "over": 2.8
+       }
+      ]
+     }
+    ],
+    "intro": {
+     "headline": "No *signal*? No problem.",
+     "say": "Word games that work offline.",
+     "app": "TravelPlay"
+    },
+    "outro": {
+     "name": "TravelPlay",
+     "line": "Try it. Tell us what you think.",
+     "url": "elevexapps.elevex.digital",
+     "say": "Tell us what you think. Visit Elevex apps dot Elevex dot digital.",
+     "note": "18+"
     }
    }
   }

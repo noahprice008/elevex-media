@@ -83,6 +83,62 @@ const clips = [
       sc("Every app, *overseen*", `https://${HUB}/`, "I oversee every app on this page.", [{ wait: 0.8 }, { scroll: 600, over: 3.2 }]),
       sc("Tell us what's *working*", `https://${HUB}/`, "Try them, and tell us what's working and what isn't.", [{ wait: 0.5 }, { scroll: 1000, over: 3.4 }]) ]),
       intro: intro("Who's *behind* these apps?", "I'm Noah, lead developer at Elevex."), outro: outro("ELEVEX Apps", "Visit Elevex apps dot Elevex dot digital.") } },
+  // ---- V11-V21 (25 Nov 2026): fills the queue to one week at 3 posts a day (21 clips). Same pages and step types as V1-V10. ----
+  { id: "V11", title: "Is it safe where you're going?", caption: `Is it safe where you're going? Travel Safety Watch gathers weather warnings, local news and official advice in one place. Independent, not a government service. Try it and tell us what you'd add. ${HUB} #travel #travelsafety #traveltips #elevex`,
+    spec: { ...TS([
+      sc("Check your *destination*", "https://travelsafetywatch.com/alerts", "Travel Safety Watch gathers warnings for places around the world.", [{ wait: 0.8 }, { scroll: 350, over: 3 }]),
+      sc("Local *news*, in plain words", "https://travelsafetywatch.com/news", "Check before you fly, and tell us what you would add.", [{ wait: 0.8 }, { scroll: 450, over: 3 }]) ]),
+      intro: intro("Is it *safe* there?", "Is it safe where you're going?", "Travel Safety Watch"), outro: outro("Travel Safety Watch", "Try it, and tell us what you think. Visit Elevex apps dot Elevex dot digital.", { note: "Independent, not a government service" }) } },
+  { id: "V12", title: "Know what you earned this week?", caption: `Know what you earned this week? Daywall adds up your hours and your weekly pay, and your data stays on your phone. Try it and tell us what you think. (Demo data) ${HUB} #shiftwork #sidehustle #budget #elevex`,
+    spec: { ...DW([
+      sc("What you *earned*", "https://daywall.elevex.digital/cashflow", "Daywall adds up your hours and your weekly pay.", [{ wait: 0.8 }, { scroll: 450, over: 3 }]),
+      sc("Every *shift*, in one place", "https://daywall.elevex.digital/work", "Your data stays on your phone. Try it, and tell us what you think.", [{ wait: 0.8 }, { scroll: 600, over: 3.2 }]) ]),
+      intro: intro("Know what you *earned*?", "Know what you earned this week?", "Daywall"), outro: outro("Daywall", "Visit Elevex apps dot Elevex dot digital.", { note: "Demo data shown" }) } },
+  { id: "V13", title: "What's going on near you tonight?", caption: `What's going on near you tonight? Scenzy shows scenes reported by people nearby. It's an early version, and we'd love your feedback. 18+. ${HUB} #scenzy #nearby #nightlife #elevex`,
+    spec: { ...SZ([
+      sc("Reported by people *nearby*", "https://getscenzy.com/near", "Scenzy shows scenes reported by people nearby.", [{ wait: 1.2 }, { scroll: 450, over: 3 }]),
+      sc("Still *early*. Tell us more.", "https://getscenzy.com/", "It's an early version, so tell us what you would change.", [{ wait: 1.2 }, { scroll: 350, over: 3 }]) ]),
+      intro: intro("What's *on* tonight?", "What's going on near you tonight?", "Scenzy"), outro: outro("Scenzy", "Visit Elevex apps dot Elevex dot digital.", { note: "18+ · Early version" }) } },
+  { id: "V14", title: "Somewhere private to think out loud?", caption: `Somewhere private to think out loud? MyWall keeps your notes, lists and diary entries on your own device. Have a look and tell us what you think. ${HUB} #mywall #journaling #privacy #elevex`,
+    spec: { ...MW([
+      sc("Notes, lists and *diary*", MWURL, "MyWall keeps your notes, lists and diary entries together.", [{ wait: 1 }, { scroll: 550, over: 3.4 }]),
+      sc("Just for *you*", MWURL, "Everything stays on your own device. Tell us what you think.", [{ wait: 0.8 }, { scroll: 800, over: 3 }]) ]),
+      intro: intro("Think *out loud*, privately", "Somewhere private to think out loud?", "MyWall"), outro: outro("MyWall", "Visit Elevex apps dot Elevex dot digital.") } },
+  { id: "V15", title: "Five minutes before boarding?", caption: `Five minutes before boarding? TravelPlay has quick puzzle and word games that work offline. Give it a go and tell us what you think. 18+. ${HUB} #travel #wordgame #puzzle #elevex`,
+    spec: { ...TP([
+      sc("A *daily* puzzle", "https://travelplay.fun/play/daily-grid", "TravelPlay has quick puzzle and word games.", [{ wait: 1 }, { scroll: 250, over: 3 }]),
+      sc("Works *offline*", "https://travelplay.fun/", "Made for the gate, the train and the long flight.", [{ wait: 0.8 }, { scroll: 450, over: 2.6 }]) ]),
+      intro: intro("Five minutes *to boarding*?", "Five minutes before boarding?", "TravelPlay"), outro: outro("TravelPlay", "Tell us what you think. Visit Elevex apps dot Elevex dot digital.", { note: "18+" }) } },
+  { id: "V16", title: "Not sure what to do next in your career?", caption: `Not sure what to do next in your career? My Ikigai Map helps you see where what you love, what you're good at, what's needed and what pays all meet. Try it and tell us what you think. (Example map) ${HUB} #ikigai #careerchange #clarity #elevex`,
+    spec: { ...IK([
+      sc("See the *whole* picture", "https://ikigai.elevex.digital/map", "My Ikigai Map shows where what you love and what pays all meet.", [{ wait: 1.2 }, { scroll: 450, over: 3 }]),
+      sc("Start with what you *love*", "https://ikigai.elevex.digital/", "Try it, and tell us what you think.", [{ wait: 0.8 }, { scroll: 400, over: 3 }]) ]),
+      intro: intro("What's *next* for you?", "Not sure what to do next in your career?", "My Ikigai Map"), outro: outro("My Ikigai Map", "Visit Elevex apps dot Elevex dot digital.", { note: "Example map shown" }) } },
+  { id: "V17", title: "Five apps, one page", caption: `Travel, shifts, privacy, puzzles and purpose. These are the apps we're building at Elevex, all on one page. Try them and tell us what you think. ${HUB} #apps #appdev #buildinpublic #elevex`,
+    spec: { ...HUBL([
+      sc("Five apps, *one page*", `https://${HUB}/`, "Travel, shifts, privacy, puzzles and purpose.", [{ wait: 0.8 }, { scroll: 450, over: 3.2 }]),
+      sc("Pick one and *try it*", `https://${HUB}/`, "Pick one, try it, and tell us what you think.", [{ wait: 0.5 }, { scroll: 850, over: 3.4 }]) ]),
+      intro: intro("Which one *first*?", "These are the apps we're building at Elevex."), outro: outro("ELEVEX Apps", "Visit Elevex apps dot Elevex dot digital.") } },
+  { id: "V18", title: "Help test our next app", caption: `Want to help test our apps on Google Play? Send us your email and we'll tell you how to join. Details at ${HUB} #googleplay #betatester #apps #elevex`,
+    spec: { ...HUBL([
+      sc("Help us *test*", `https://${HUB}/#tester`, "Want to help test our apps on Google Play?", [{ wait: 1 }, { type: "input[type=email]", text: "you@example.com", delay: 80 }, { wait: 0.6 }]),
+      sc("We'll tell you *how to join*", `https://${HUB}/`, "Send us your email, and we'll tell you how to join.", [{ wait: 0.5 }, { scroll: 650, over: 3 }]) ]),
+      intro: intro("Want an *early look*?", "Want an early look at our apps?", null, { kicker: "GOOGLE PLAY" }), outro: outro("ELEVEX Apps", "Send us your email. We'll be in touch.", { line: "Be an early tester", tester: { title: "Want to be a tester on Google Play?", text: "Send us your email at the link above" } }) } },
+  { id: "V19", title: "Booked a trip? Check this first.", caption: `Booked a trip? Check this first. Travel Safety Watch brings official advice, weather warnings and local news together for where you're headed. Independent, not a government service. ${HUB} #travel #traveltips #travelsafety #elevex`,
+    spec: { ...TS([
+      sc("Official *advice*", "https://travelsafetywatch.com/news", "Travel Safety Watch brings official advice and local news together.", [{ wait: 0.8 }, { scroll: 550, over: 3.2 }]),
+      sc("Weather *warnings* too", "https://travelsafetywatch.com/alerts", "Along with weather warnings for where you're headed.", [{ wait: 0.8 }, { scroll: 500, over: 3.2 }]) ]),
+      intro: intro("Booked a *trip*?", "Booked a trip? Check this first.", "Travel Safety Watch"), outro: outro("Travel Safety Watch", "Visit Elevex apps dot Elevex dot digital.", { note: "Independent, not a government service" }) } },
+  { id: "V20", title: "Your shifts, on your phone", caption: `Your shifts, on your phone. Daywall tracks hours, pay and cash flow in one place. Try it and tell us what you think. (Demo data) ${HUB} #shiftwork #worklife #budgeting #elevex`,
+    spec: { ...DW([
+      sc("Log your *hours*", "https://daywall.elevex.digital/work", "Daywall tracks your hours as you work.", [{ wait: 0.8 }, { scroll: 650, over: 3.2 }]),
+      sc("See your *cash flow*", "https://daywall.elevex.digital/cashflow", "Then shows where your money goes. Tell us what you think.", [{ wait: 0.8 }, { scroll: 500, over: 3 }]) ]),
+      intro: intro("Your shifts, on *your phone*", "Your shifts, on your phone.", "Daywall"), outro: outro("Daywall", "Visit Elevex apps dot Elevex dot digital.", { note: "Demo data shown" }) } },
+  { id: "V21", title: "Word games that work offline", caption: `Word games that work offline. TravelPlay is made for layovers, long flights and waiting rooms. Give it a go and tell us what you think. 18+. ${HUB} #wordgame #travel #offline #elevex`,
+    spec: { ...TP([
+      sc("Made for *layovers*", "https://travelplay.fun/", "TravelPlay is made for layovers, long flights and waiting rooms.", [{ wait: 0.8 }, { scroll: 350, over: 2.8 }]),
+      sc("Play *offline*", "https://travelplay.fun/play/daily-grid", "No signal needed. Give it a go.", [{ wait: 1 }, { scroll: 300, over: 2.8 }]) ]),
+      intro: intro("No *signal*? No problem.", "Word games that work offline.", "TravelPlay"), outro: outro("TravelPlay", "Tell us what you think. Visit Elevex apps dot Elevex dot digital.", { note: "18+" }) } },
 ];
 const FINAL = clips.map((c, i) => ({ id: c.id, title: c.title, caption: c.caption, ai: true, ready: true, spec: { format: "elevexapps", seed: 100 + i * 7, music: "upbeat", voice: "am_echo", speed: 1.04, url: HUB, ...c.spec } }));
 if (process.argv[2] === "--stdout") console.log(JSON.stringify(FINAL[Number(process.argv[3] || 0)].spec));
